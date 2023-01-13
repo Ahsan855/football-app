@@ -1,11 +1,12 @@
 import React from "react";
+import shape1 from "../image/shape/Ellipse 3.png";
 
 const Progress = () => {
   return (
     <div>
       <section className="bg-[#1E1E1E] body-font text-white">
         <div className="container px-16 py-24 mx-auto flex justify-between items-center">
-          <div className="lg:w-4/5 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+          <div className="lg:w-4/5 w-full mb-10 lg:mb-0 rounded-lg  relative">
             <h1 className="text-[51px] text-white leading-[55px]">
               What Is Football <br />
               <span className="text-[#CCF300]">Ape Fan Club?</span>
@@ -29,6 +30,13 @@ const Progress = () => {
             <button className="bg-[#CCF300] text-black px-3 py-2 rounded-lg mt-3">
               Buy FAFC
             </button>
+            <div>
+              <img
+                src={shape1}
+                className="absolute top-[-100%] right-[30%]"
+                alt=""
+              />
+            </div>
           </div>
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
             <div className="flex flex-col pb-3">
