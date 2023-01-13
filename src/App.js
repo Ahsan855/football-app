@@ -2,6 +2,7 @@ import About from "./components/About";
 import Fafc from "./components/Fafc";
 import Header from "./components/Header";
 import Progress from "./components/Progress";
+import Sport from "./components/Sport";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <About />
       <Fafc />
       <Progress />
+      <Sport />
     </div>
   );
 }
