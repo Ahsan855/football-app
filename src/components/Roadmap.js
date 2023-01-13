@@ -1,7 +1,7 @@
 import React from "react";
 import shape1 from "../image/shape/Ellipse 3.png";
 
-const Progress = () => {
+const Roadmap = () => {
   return (
     <div>
       <section className="bg-[#1E1E1E] body-font text-white">
@@ -82,4 +82,4 @@ const Progress = () => {
   );
 };
 
-export default Progress;
+export default Roadmap;

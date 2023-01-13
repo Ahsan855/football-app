@@ -2,7 +2,7 @@ import React from "react";
 import shape from "../image/Screenshot_8.png";
 import shape2 from "../image/Vector (1).png";
 
-const Fafc = () => {
+const Nfts = () => {
   return (
     <div>
       <section className="bg-[#1E1E1E] body-font overflow-hidden">
@@ -52,4 +52,4 @@ const Fafc = () => {
   );
 };
 
-export default Fafc;
+export default Nfts;

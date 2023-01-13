@@ -2,7 +2,7 @@ import React from "react";
 import coute from ".././image/“.png";
 import vector from ".././image/Vector.png";
 import shape1 from "../image/shape/Ellipse 4.png";
-const Sport = () => {
+const Faqs = () => {
   return (
     <div className="bg-black px-3">
       <img className="w-[58px] mx-auto" src={vector} alt="" />
@@ -70,4 +70,4 @@ const Sport = () => {
   );
 };
 
-export default Sport;
+export default Faqs;
