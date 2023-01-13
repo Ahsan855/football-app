@@ -8,7 +8,7 @@ import footerlogo from "./../image/pngwing 1.png";
 
 const Footer = () => {
   return (
-    <div className="bg-[#1E1E1E]">
+    <div className="bg-black py-5">
       <img className="w-[110px] mx-auto" src={logo} alt="" />
       <div className="flex justify-center items-center space-x-7 mt-5">
         <img src={logo1} alt="" />

@@ -1,12 +1,14 @@
 import React from "react";
+import line from ".././image/Line.png";
 
 const Tiger = () => {
   return (
-    <div className="bg-[#1E1E1E] text-white py-20">
-      <h1 className="text-center text-3xl  mb-20 font-extrabold">
+    <div className="bg-black text-white py-20 relative">
+      <img className="absolute top-[-80px] right-10" src={line} alt="" />
+      <h1 className="text-center text-3xl  mb-10 font-extrabold">
         Football Ape Fan Club NFT Holder Tier Reward System
       </h1>
-      <p className="p-5 mb-2 px-[360px]">
+      <p className="p-5 md:px-[360px] px-5">
         Holders with three or more Football Ape Fan Club NFTs will be eligible
         for an exclusive <br /> giveaway of 79 Football Ape Fan Club NFTs{" "}
         <span className="text-[#CCF300] underline">
@@ -15,7 +17,7 @@ const Tiger = () => {
         </span>{" "}
         to 79 Holders!
       </p>
-      <p className="p-5 px-[360px]">
+      <p className="p-5 md:px-[360px] px-5">
         The top{" "}
         <span className="text-[#CCF300] underline">
           9 Football Ape Fan Club NFT

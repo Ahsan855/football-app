@@ -3,9 +3,9 @@ import React from "react";
 const Progress = () => {
   return (
     <div>
-      <section class="bg-[#1E1E1E] body-font text-white">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
-          <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+      <section className="bg-[#1E1E1E] body-font text-white">
+        <div className="container px-5 py-24 mx-auto flex justify-between items-center">
+          <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
             <h1 className="text-[51px] text-white leading-[55px]">
               What Is Football <br />
               <span className="text-[#CCF300]">Ape Fan Club?</span>
@@ -30,7 +30,7 @@ const Progress = () => {
               Buy FAFC
             </button>
           </div>
-          <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+          <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
             <div className="flex flex-col pb-3">
               <h2 className="text-[#CCF300]">Phase I</h2>
               <label htmlFor="">2500 FAFC NFTs, 0.04 ETH Each - TBA</label>

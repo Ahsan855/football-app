@@ -3,7 +3,7 @@ import coute from ".././image/“.png";
 import vector from ".././image/Vector.png";
 const Sport = () => {
   return (
-    <div className="bg-[#1E1E1E]">
+    <div className="bg-black">
       <img className="w-[58px] mx-auto" src={vector} alt="" />
       <div className="mt-20">
         <h1 className="text-4xl font-extrabold text-white text-center">

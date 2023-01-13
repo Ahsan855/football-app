@@ -5,16 +5,16 @@ import shape2 from "../image/Vector (1).png";
 const Fafc = () => {
   return (
     <div>
-      <section class="bg-[#1E1E1E] body-font overflow-hidden">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="lg:w-4/5 mx-auto flex flex-wrap">
-            <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
-              <h1 class="text-white text-3xl title-font font-bold mb-4">
+      <section className="bg-[#1E1E1E] body-font overflow-hidden">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="lg:w-4/5 mx-auto flex flex-wrap">
+            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
+              <h1 className="text-white text-3xl title-font font-bold mb-4">
                 <span className="text-[#CCF300]">FAFC NFTs</span> are more than
                 just an avatar!
               </h1>
 
-              <p class="leading-relaxed my-8 text-[#ffffff] pb-5">
+              <p className="leading-relaxed my-8 text-[#ffffff] pb-5">
                 Football Ape Fan Club is an NFT collection consisting of{" "}
                 <b>7,910 FootballApeFC NFT</b> on the Ethereum blockchain. We
                 will create an NFT Metaverse. We will bring more utility for
@@ -41,7 +41,7 @@ const Fafc = () => {
             </div>
             <img
               alt="ecommerce"
-              class="lg:w-1/2 w-full lg:h-auto h-60 object-cover object-center rounded-3xl"
+              className="lg:w-1/2 w-full lg:h-auto h-60 object-cover object-center rounded-3xl"
               src={shape}
             />
           </div>
