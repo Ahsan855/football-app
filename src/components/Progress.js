@@ -4,8 +4,8 @@ const Progress = () => {
   return (
     <div>
       <section className="bg-[#1E1E1E] body-font text-white">
-        <div className="container px-5 py-24 mx-auto flex justify-between items-center">
-          <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+        <div className="container px-16 py-24 mx-auto flex justify-between items-center">
+          <div className="lg:w-4/5 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
             <h1 className="text-[51px] text-white leading-[55px]">
               What Is Football <br />
               <span className="text-[#CCF300]">Ape Fan Club?</span>
