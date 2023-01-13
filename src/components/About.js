@@ -1,12 +1,13 @@
 import React from "react";
 import about from "../image/Group 44.png";
 import shape1 from "../image/Vector (2).png";
+import shape2 from "../image/shape/Ellipse 2 (1).png";
 
 const About = () => {
   return (
     <div>
       <section className="bg-[#1E1E1E] body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center relative">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded"
@@ -41,6 +42,9 @@ const About = () => {
               </button>
             </div>
           </div>
+        </div>
+        <div>
+          <img src={shape2} className="absolute top-[50%] left-[50%]" alt="" />
         </div>
         <img className="w-[134px] mx-auto" src={shape1} alt="" />
       </section>
