@@ -1,11 +1,12 @@
 import React from "react";
 import coute from ".././image/“.png";
 import vector from ".././image/Vector.png";
+import shape1 from "../image/shape/Ellipse 4.png";
 const Sport = () => {
   return (
     <div className="bg-black">
       <img className="w-[58px] mx-auto" src={vector} alt="" />
-      <div className="mt-20">
+      <div className="mt-20 relative">
         <h1 className="text-4xl font-extrabold text-white text-center">
           A Sports collection built with utility and <br />{" "}
           <span className="text-[#CCF300]">community at its foundation</span>{" "}
@@ -13,6 +14,13 @@ const Sport = () => {
           Once inside, you will have exclusive access to FAFC <br /> related
           drops, meetups and IRL events, and access <br /> to upcoming projects!
         </h1>
+        <div>
+          <img
+            src={shape1}
+            className="absolute bottom-[-200%] right-[0%]"
+            alt=""
+          />
+        </div>
       </div>
       <div className="container w-[950px] mx-auto py-20 px-5 space-y-3">
         <div
