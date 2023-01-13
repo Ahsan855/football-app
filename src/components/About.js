@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div>
       <section className="bg-[#1E1E1E] body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center relative">
+        <div className="container mx-auto flex px-3 py-24 md:flex-row flex-col items-center relative">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded"
@@ -34,17 +34,21 @@ const About = () => {
               These are upcoming project from Football Ape Fan Club.
             </p>
             <div className="flex justify-center">
-              <button className="inline-flex text-black bg-[#CCF300] border-0 py-2 px-6 focus:outline-none hover:bg-[#a7c50f] rounded text-lg">
+              <button className="inline-flex text-black bg-[#CCF300] border-0 py-2 px-1 md:py-2 md:px-6 focus:outline-none hover:bg-[#a7c50f] rounded text-lg">
                 Register on Permint
               </button>
-              <button className="ml-4 inline-flex text-[#CCF300] hover:text-black border-2 border-[#CCF300] py-2 px-6 hover:bg-[#CCF300] rounded text-lg">
+              <button className="ml-4 inline-flex text-[#CCF300] hover:text-black border-2 border-[#CCF300] py-2 px-1 md:py-2 md:px-6 hover:bg-[#CCF300] rounded text-lg">
                 Linktree
               </button>
             </div>
           </div>
         </div>
         <div>
-          <img src={shape2} className="absolute top-[50%] left-[50%]" alt="" />
+          <img
+            src={shape2}
+            className="absolute md:top-[50%] md:left-[50%] sm:hidden"
+            alt=""
+          />
         </div>
         <img className="w-[134px] mx-auto" src={shape1} alt="" />
       </section>

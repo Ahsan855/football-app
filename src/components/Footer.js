@@ -22,7 +22,7 @@ const Footer = () => {
       <img
         src={footerlogo}
         alt=""
-        className="w-full md:mt-[-450px] lg:mt-[-480px] 2xl:mt-[-580px]"
+        className="w-full mt-[-106px] md:mt-[-450px] lg:mt-[-480px] 2xl:mt-[-580px]"
       />
     </div>
   );

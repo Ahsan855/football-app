@@ -24,10 +24,10 @@ const Header = () => {
         </header>
         {/* image and header section */}
         <section className="text-gray-600 body-font">
-          <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+          <div className="container mx-auto flex px-5 py-5 md:py-10 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h2 className="text-lg text-black">Welcome to the</h2>
-              <h1 className="title-font sm:text-4xl mb-4 font-extrabold text-[67px] text-black leading-[80px]">
+              <h1 className="title-font text-3xl md:text-4xl mb-10 md:mb-5 font-extrabold text-black md:leading-[80px]">
                 Football Ape <br /> Fan Club (FAFC)
               </h1>
               <p className="mb-8 leading-relaxed text-black">
@@ -54,7 +54,7 @@ const Header = () => {
           <img
             src={headerfooter}
             alt=""
-            className="md:mt-[-450px] lg:mt-[-480px] 2xl:mt-[-620px] w-full"
+            className="mt-[-106px] md:mt-[-450px] lg:mt-[-480px] 2xl:mt-[-620px] w-full"
           />
         </section>
       </div>

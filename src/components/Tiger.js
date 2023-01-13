@@ -5,7 +5,7 @@ const Tiger = () => {
   return (
     <div className="bg-black text-white py-20 relative">
       <img className="absolute top-[-80px] right-10" src={line} alt="" />
-      <h1 className="text-center text-3xl  mb-10 font-extrabold">
+      <h1 className="text-center text-xl md:text-4xl  mb-10 font-extrabold">
         Football Ape Fan Club NFT Holder Tier Reward System
       </h1>
       <p className="p-5 md:px-[360px] px-5">

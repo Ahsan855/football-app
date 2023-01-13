@@ -4,10 +4,10 @@ import vector from ".././image/Vector.png";
 import shape1 from "../image/shape/Ellipse 4.png";
 const Sport = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black px-3">
       <img className="w-[58px] mx-auto" src={vector} alt="" />
       <div className="mt-20 relative">
-        <h1 className="text-4xl font-extrabold text-white text-center">
+        <h1 className="text-xl md:text-4xl font-extrabold text-white text-center">
           A Sports collection built with utility and <br />{" "}
           <span className="text-[#CCF300]">community at its foundation</span>{" "}
           <br /> <br />
@@ -22,12 +22,12 @@ const Sport = () => {
           />
         </div>
       </div>
-      <div className="container w-[950px] mx-auto py-20 px-5 space-y-3">
+      <div className="container md:w-[950px] mx-auto py-20 px-5 space-y-3">
         <div
           tabIndex={1}
           className="collapse collapse-plus border-gray-700 rounded-box"
         >
-          <div className="collapse-title text-white text-xl font-medium">
+          <div className="collapse-title text-white text-sm md:text-xl font-medium">
             What Is the Mint Date for FAFC?
           </div>
           <div className="collapse-content">
@@ -39,7 +39,7 @@ const Sport = () => {
           tabIndex={2}
           className="collapse collapse-plus  border-gray-700 rounded-box"
         >
-          <div className="collapse-title text-white text-xl font-medium">
+          <div className="collapse-title text-white text-sm md:text-xl font-medium">
             What intellectual property rights do FAFC holders receive?
           </div>
           <div className="collapse-content">
@@ -51,7 +51,7 @@ const Sport = () => {
           tabIndex={3}
           className="collapse collapse-plus  border-gray-700 rounded-box"
         >
-          <div className="collapse-title text-white text-xl font-medium">
+          <div className="collapse-title text-white text-sm md:text-xl font-medium">
             Will the Football Ape Fan Club NFT be revealed right away?
           </div>
           <div className="collapse-content">
@@ -59,8 +59,8 @@ const Sport = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#CCF300] relative px-4 py-10 rounded-lg md:w-[1000px] mx-auto">
-        <p className="text-4xl text-center text-black font-extrabold">
+      <div className="bg-[#CCF300] relative px-4 py-10 rounded-lg md:w-1/2 mx-auto">
+        <p className="text-xl md:text-4xl text-center text-black font-extrabold px-2">
           Football is not just a game, but an <br /> emotion for billion of
           people!
         </p>

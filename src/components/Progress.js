@@ -5,9 +5,9 @@ const Progress = () => {
   return (
     <div>
       <section className="bg-[#1E1E1E] body-font text-white">
-        <div className="container px-16 py-24 mx-auto flex justify-between items-center">
+        <div className="container px-5 py-16 md:px-16 md:py-24 mx-auto flex flex-col md:flex-row justify-evenly items-center">
           <div className="lg:w-4/5 w-full mb-10 lg:mb-0 rounded-lg  relative">
-            <h1 className="text-[51px] text-white leading-[55px]">
+            <h1 className="text-2xl md:text-[51px] text-white leading-[55px]">
               What Is Football <br />
               <span className="text-[#CCF300]">Ape Fan Club?</span>
             </h1>
@@ -17,7 +17,7 @@ const Progress = () => {
               a Football Ape Fan Club NFT. By owning a <br /> Football Ape Fan
               Club NFT
             </p>
-            <div className="flex justify-start py-3">
+            <div className="flex justify-evenly md:justify-start py-3">
               <p>
                 <span>SUOOLY</span> <br />
                 <b>7,910</b>

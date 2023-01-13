@@ -7,7 +7,7 @@ const Fafc = () => {
     <div>
       <section className="bg-[#1E1E1E] body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
-          <div className="lg:w-4/5 mx-auto flex flex-wrap">
+          <div className="md:w-full mx-auto flex flex-wrap justify-center items-center">
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
               <h1 className="text-white text-3xl title-font font-bold mb-4">
                 <span className="text-[#CCF300]">FAFC NFTs</span> are more than
@@ -23,7 +23,7 @@ const Fafc = () => {
                 Every FAFC holder will able to Claim a Mutant Football Ape and
                 Baby Football Ape NFT for free. Only gas fees will be charged.
               </p>
-              <div className="h-[133px] w-[480px] relative ">
+              <div className="h-[133px] sm:w-full md:w-[480px] px-2 mb-24 relative ">
                 <p className="text-[#ffffff] bg-[#302d2d] border-2 p-3 border-gray-600 rounded-xl">
                   If you hold 1 FAFC you can claim <b>1 Mutant</b> and{" "}
                   <b>1 BFAFC</b> Nft <br /> for free. If you hold <b>50 FAFC</b>{" "}
@@ -32,7 +32,7 @@ const Fafc = () => {
                 </p>
                 <button className="bg-[#CCF300] absolute top-[-25px] left-6 px-5 py-2 rounded-full">
                   {" "}
-                  <span className="bg-[#010101] h-[17px] w-[17px] rounded-full mr-1">
+                  <span className="bg-black text-black h-[17px] w-[17px] rounded-full mr-1">
                     00
                   </span>
                   Example
