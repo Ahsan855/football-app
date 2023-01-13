@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Fafc from "./components/Fafc";
 import Header from "./components/Header";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Header />
       <About />
+      <Fafc />
     </div>
   );
 }
