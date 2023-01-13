@@ -1,8 +1,10 @@
 import About from "./components/About";
 import Fafc from "./components/Fafc";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Progress from "./components/Progress";
 import Sport from "./components/Sport";
+import Tiger from "./components/Tiger";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Fafc />
       <Progress />
       <Sport />
+      <Tiger />
+      <Footer />
     </div>
   );
 }
